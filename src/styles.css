@@ -1,0 +1,78 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    background-color: #24232b;
+    padding:24px;
+    width: 50% ;
+    margin-left: 300px;
+    margin-top: 100px;
+    border-radius: 15px;
+    height: 50%;
+}
+.header{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+button{
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    background-color: #2a8b8b;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+}
+.copybtn{
+    height: 30px;
+    font-size: 10px;
+}
+.charLength{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 24px;
+}
+.charLength span{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 24px;
+}
+.chechBoxes{
+    display: grid;
+    grid-template-columns: auto auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+}
+.chechBoxes div{
+    display: flex;
+    gap:5px;
+    padding-bottom: 25px;
+}
+.generatebtn{
+    width: 100%;
+    font-size: 20px;
+    padding: 20px;
+}
+.errorMessage{
+    color: red;
+    padding-bottom: 5px;
+}
+.passwordStrength{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom:12px ;
+    color: white;
+}
